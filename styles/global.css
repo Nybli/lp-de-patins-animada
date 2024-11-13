@@ -22,11 +22,14 @@
   --text-base: 1rem;
   --text-lg: 2.5rem;
   --text-xl: 4rem;
-
 }
 
 html, button {
   font: 500 1rem/1.5 var(--ff-base);
+}
+
+html {
+  zoom: 0.5;
 }
 
 h1, h2 {
